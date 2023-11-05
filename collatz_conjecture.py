@@ -12,8 +12,7 @@ def steps(number):
     :param number: int - number to operate.
     :return: int - number of steps.
     """
-    
-    
+
     step = 0
     if number < 1 or not isinstance(number, int):
         raise ValueError("Only positive integers are allowed")
